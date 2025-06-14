@@ -30,3 +30,12 @@ body {
     display: flex;
 
 }
+
+.joke_btn {
+
+    border: none;
+    font-size: 50px;
+    background: none;
+    margin-top: 10px;
+
+}

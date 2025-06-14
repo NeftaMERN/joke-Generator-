@@ -7,7 +7,14 @@ const getJoke = () => {
 
     fetch(url)
     .then(response => response.json())
+    .then(data => {
 
-}
+        jokeContent.textContent = data.joke;
+
+    })
+
+};
+
+btn.addEventListener("click", getJoke);
 
 getJoke()

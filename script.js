@@ -5,11 +5,19 @@ const url = "https://v2.jokeapi.dev/joke/Any?type=single";
 
 const getJoke = () => {
 
+    jokeContent.classList.remove("fade");
+
     fetch(url)
     .then(response => response.json())
     .then(data => {
 
         jokeContent.textContent = data.joke;
+
+        setTimeout(() => {
+
+            jokeContent.classList.add("fade");
+
+        }, 50);
 
     })
 

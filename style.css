@@ -49,10 +49,15 @@ body {
 
 }
 
-.about p {
+#joke {
 
     opacity: 0;
+    transition: opacity 1.5s;
 
+}
+
+#joke.fade {
+    opacity: 1;
 }
 
 .generat_btn {

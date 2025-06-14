@@ -13,6 +13,13 @@ const getJoke = () => {
 
     })
 
+    .catch(error => {
+
+        jokeContent.textContent = "Failed to fetch joke.";
+        console.log(error);
+
+    })
+
 };
 
 btn.addEventListener("click", getJoke);

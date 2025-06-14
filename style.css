@@ -11,6 +11,14 @@ body {
     justify-content: center;
     display: flex;
     height: 100vh;
+
+}
+
+.main {
+
+    width: 50%;
+    height: 50vh;
     background: black;
+    border-radius: 10px;
 
 }

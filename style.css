@@ -49,6 +49,12 @@ body {
 
 }
 
+.about p {
+
+    opacity: 0;
+
+}
+
 .generat_btn {
 
     text-align: center;

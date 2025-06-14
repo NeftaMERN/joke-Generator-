@@ -48,3 +48,28 @@ body {
     margin-top: 60px;
 
 }
+
+.generat_btn {
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.generat_btn button {
+
+    width: 20%;
+    height: 5vh;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+
+.generat_btn button:hover {
+
+    transform: translateY(-5px);
+
+}
